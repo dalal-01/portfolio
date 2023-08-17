@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ ul{
+  list-style: none;
+}
+.cotainer{
+   width:60%;
+    margin:auto
+}
+.header .overlay{
+    background: rgba(0,0,0,0.3);    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.header{
+    text-align: center;
+    color:#fff;
+    background-image: url(../img/header.jpeg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+.header .navbar{
+    z-index: 999;
+
+}
+
+.navbar .nav{
+    width: 100%;
+    text-align: center;
+
+}
+
+.navbar .nav .item{
+    display: inline-block;
+    padding-top: 30px;
+   
+}
+ .navbar .nav .home {
+    border-top: rgb(56, 100, 222);
+    border-top-style: solid;
+    border-width: 3px;
+}
+
+.navbar .nav .item a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px 13px;
+    transition: all 1s;
+    
+}
+.navbar .nav .item a:hover{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(56, 100, 222);
+    font-family: 'Montserrat', sans-serif;
+    margin:0px 13px;     
+}
+.navbar .nav .home a{
+    color:rgb(56, 100, 222);
+    font-size: medium;
+}
+.header .header-content{
+    padding-top: 220px;
+    text-align: center; 
+}
+
+.header h1{
+    font-size:50px ;
+    font-family: 'Montserrat', sans-serif;
+}
+.header p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 20px 0px;
+
+}
+.header .header-btn a {
+    border-radius: 50px;
+    border-style: solid;
+    display: inline-block;
+    text-decoration: none;
+    border-color: rgba(0, 0, 0, 0)    ;
+}
+.header .header-btn .btn{
+    background-color: rgb(56, 100, 222);
+    color: #fff;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif ;
+    padding: 15px 30px;
+    font-weight: 700;
+    transition: all;
+    transition-delay: .15s;
+    margin: 45px 5px;
+    text-transform: uppercase;
+}
+.header .header-btn .btn:hover{
+    background-color:#fff;
+    color: black;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif ;
+    padding: 15px 30px;
+    font-weight: 700;
+    margin: 15px 5px;
+    text-transform: uppercase;
+
+}
+
+
+/* start about-me , why and contact*/
+.about-me {
+    color:#fff;
+    font-family: 'Montserrat', sans-serif ;
+   background-color:rgb(37, 49, 71);
+   
+}
+
+.why{
+    background-color:#fff;
+    font-family: 'Montserrat', sans-serif ;
+    color:rgb(44, 49, 58);
+   
+} 
+ 
+.about-me h2 ,.why h2 ,.contact h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700; 
+    padding-top: 50px;
+    margin-bottom: 18px;
+
+}
+.about-me p ,.why p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* start contact */
+.contact{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif ;
+    background-color:rgb(31, 34, 39);
+   
+} 
+.contact .contact-icon {
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+
+.contact .contact-icon .item{
+    display: inline-block;
+    padding-top: 30px;
+}
+.contact .contact-icon .item a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px 13px;
+    transition: all 1s;
+} 
+.contact .contact-icon .item a:hover{
+    color: rgb(56, 100, 222);
+}
+.contact .contact-icon .item .fa{
+  font-size: 40px;
+  padding: 0px 15px;
+}
+
+
+
+
+
+/* start footer */
+.footer{
+    background-color: #131416;
+}
+.footer p{
+    font-family:  'Open Sans', sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: 400;
+    padding-top:  20px;
+    padding-bottom: 30px ;
+    text-align: center;
+}
+
+
+/* end footer */
+
